@@ -1,45 +1,43 @@
-# 🏥 Hospital Readmissions & Healthcare Analytics Dashboard
-
-This project analyzes the Hospital Readmissions dataset (130-US hospitals) using **PostgreSQL**, **Python (Pandas)**, and **Power BI** to identify key risk factors contributing to patient readmissions within 30 days and optimize clinical workflows.
-
----
-
 ## 📊 Dashboard Preview
 ![HOSPITAL Preview](Hospital_Analysis_Dashboard.png)
 
 ---
+🏥 Hospital Readmissions Analytics & Risk Prediction
+📌 Project Overview
+Yeh project ek comprehensive data analysis aur risk prediction solution hai jo hospital readmission patterns ko samajhne ke liye banaya gaya hai. Iska main objective yeh identify karna hai ki kaun se clinical aur demographic factors (jaise patient ki age, hospital me rukne ki avadhi, aur purani medical history) patient ke 30 din ke andar dobara hospital readmit hone ke risk ko sabse zyada badhate hain.
 
-## 🛠️ Tech Stack & Tools Used
-* **Database & Querying:** PostgreSQL, pgAdmin 4 (Data schema setup, hygiene scripts, and analytical aggregations)
-* **Data Processing:** Python (Pandas, NumPy for missing value handling, `pd.cut`, and custom categorization)
-* **Visualization:** Power BI Desktop (Dark slate & neon teal/purple theme, KPI cards, interactive slicers)
-* **Version Control:** Git & GitHub
+🛠️ Tech Stack & Tools Used
+Database & Querying: PostgreSQL, SQL (pgAdmin)
 
----
+Data Processing & Analysis: Python, Pandas, NumPy
 
-## 🔍 Key Business & Clinical Questions Addressed
-1. **Overall Readmission Rate:** What percentage of patients are readmitted within 30 days versus after 30 days or not at all?
-2. **Stay Duration Impact:** Does a longer length of stay in the hospital increase the likelihood of early readmission?
-3. **Age-Wise Risk Analysis:** Which age brackets experience the highest rates of patient readmission?
-4. **Prior Inpatient History:** How heavily do prior hospital visits influence future readmission patterns?
+Data Visualization: Seaborn, Matplotlib, Power BI Interactive Dashboard
 
----
+Version Control: GitHub
 
-## 📂 Repository Structure
-* `hospital_readmissions_cleaned.csv` -> Processed and cleaned dataset ready for Power BI import
-* `hospital_cleaning.py` -> Python script for handling missing values (`?`, `NaN`), dropping invalid records, and cleaning columns
-* `hospital_queries.sql` -> SQL scripts for data cleaning, integrity checks, and clinical metric queries
-* `Hospital_Readmissions_Dashboard.pbix` -> Power BI Interactive Dashboard File
+📊 Key Visualizations & Exploratory Data Analysis (EDA)
+Patient Age Distribution vs Readmission Status:
 
----
+Is visualization se yeh pata chalta hai ki kis age group ke patients me readmission ka risk sabse high hota hai.
 
-## 🚀 Key Insights & Findings
-* **Inpatient History Correlation:** Patients with 4 or more prior inpatient visits show a drastically higher 30-day readmission risk, signaling a need for chronic care management.
-* **Length of Stay:** Extended stays correlate with complex medical histories, highlighting the importance of post-discharge follow-up care.
-* **Age Factor:** Older demographics account for a large portion of early readmissions, requiring targeted geriatric care planning.
+Length of Stay vs Readmission Impact:
 
----
+Yeh analyze karta hai ki hospital me bitaye gaye dino (Stay Duration) ka patient ke recovery aur dobara admit hone par kya asar padta hai.
 
-## 👨‍💻 Author
-**Yogesh Kumar**
+Prior Inpatient Visits Impact:
+
+Purane inpatient visits aur emergency records ka 30-din ke readmission rate par kya prabhav padta hai, iska deep dive breakdown.
+
+💡 Key Business Insights
+Jin patients ki prior inpatient visits zyada hoti hain, unka high-priority risk category me aane ka chance kafi badh jata hai.
+
+Specific age brackets aur length of stay combinations healthcare providers ko high-risk patients ki pehle se hi pehchan karne me madad karte hain.
+
+🚀 How to Explore This Repository
+SQL Queries: Hospital_Readmissions.sql file me data cleaning, duplicate handling aur business analytical queries di gayi hain.
+
+Python Analysis: Jupyter / Colab notebook me Pandas aur Seaborn ka use karke data processing aur charts generate kiye gaye hain.
+
+Dashboard Preview: Power BI dashboard aur Seaborn plots ke visual insights repository me available hain.
+
 * BCA Student | Aspiring Data Analyst
