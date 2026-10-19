@@ -5,7 +5,7 @@ This project analyzes the Hospital Readmissions dataset (130-US hospitals) using
 ---
 
 ## 📊 Dashboard Preview
-*(Aap yahan apne Power BI hospital dashboard ka screenshot add kar sakte hain: `screenshots/hospital_dashboard.png`)*
+ ![HOSPITAL Preview](Hospital Analysis DashBoard.png)
 
 ---
 
