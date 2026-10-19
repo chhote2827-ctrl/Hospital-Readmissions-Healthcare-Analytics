@@ -4,7 +4,7 @@
 ---
 🏥 Hospital Readmissions Analytics & Risk Prediction
 📌 Project Overview
-Yeh project ek comprehensive data analysis aur risk prediction solution hai jo hospital readmission patterns ko samajhne ke liye banaya gaya hai. Iska main objective yeh identify karna hai ki kaun se clinical aur demographic factors (jaise patient ki age, hospital me rukne ki avadhi, aur purani medical history) patient ke 30 din ke andar dobara hospital readmit hone ke risk ko sabse zyada badhate hain.
+This project is a comprehensive data analysis and risk prediction solution designed to understand hospital readmission patterns. Its main objective is to identify which clinical and demographic factors (such as patient age, hospital stay duration, and prior medical history) significantly increase the risk of a patient being readmitted within 30 days.
 
 🛠️ Tech Stack & Tools Used
 Database & Querying: PostgreSQL, SQL (pgAdmin)
@@ -18,26 +18,25 @@ Version Control: GitHub
 📊 Key Visualizations & Exploratory Data Analysis (EDA)
 Patient Age Distribution vs Readmission Status:
 
-Is visualization se yeh pata chalta hai ki kis age group ke patients me readmission ka risk sabse high hota hai.
+Highlights which age groups face the highest risk of hospital readmission, showcasing core demographic risk factors.
 
 Length of Stay vs Readmission Impact:
 
-Yeh analyze karta hai ki hospital me bitaye gaye dino (Stay Duration) ka patient ke recovery aur dobara admit hone par kya asar padta hai.
+Analyzes how the number of days spent in the hospital affects patient recovery and readmission probability.
 
 Prior Inpatient Visits Impact:
 
-Purane inpatient visits aur emergency records ka 30-din ke readmission rate par kya prabhav padta hai, iska deep dive breakdown.
+A deep dive into how past inpatient visits and emergency records influence 30-day readmission rates.
 
 💡 Key Business Insights
-Jin patients ki prior inpatient visits zyada hoti hain, unka high-priority risk category me aane ka chance kafi badh jata hai.
+Patients with a higher frequency of prior inpatient visits show a significantly elevated risk of falling into high-priority readmission categories.
 
-Specific age brackets aur length of stay combinations healthcare providers ko high-risk patients ki pehle se hi pehchan karne me madad karte hain.
+Specific combinations of age brackets and length of stay help healthcare providers proactively identify high-risk patients before discharge.
 
 🚀 How to Explore This Repository
-SQL Queries: Hospital_Readmissions.sql file me data cleaning, duplicate handling aur business analytical queries di gayi hain.
+SQL Queries: Check the SQL script file for data cleaning, duplicate handling, and business analytical queries.
 
-Python Analysis: Jupyter / Colab notebook me Pandas aur Seaborn ka use karke data processing aur charts generate kiye gaye hain.
+Python Analysis: Jupyter / Colab notebooks utilizing Pandas and Seaborn for advanced data processing and chart generation.
 
-Dashboard Preview: Power BI dashboard aur Seaborn plots ke visual insights repository me available hain.
-
+Dashboard Preview: Power BI dashboard previews and Seaborn visual insights are available directly within the repository.
 * BCA Student | Aspiring Data Analyst
