@@ -5,7 +5,7 @@ This project analyzes the Hospital Readmissions dataset (130-US hospitals) using
 ---
 
 ## 📊 Dashboard Preview
-![HOSPITAL Preview](Hospital_Analysis_Dashboard.png)
+![HOSPITAL Preview](Hospital_Analysis_Dashboard.png.png)
 
 ---
 
